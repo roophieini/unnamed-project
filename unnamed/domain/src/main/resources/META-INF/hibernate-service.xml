@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+    <mbean code="org.jboss.hibernate.jmx.Hibernate"
+           name="jboss.har:service=Hibernate">
+        <attribute name="DatasourceName">java:jboss/datasources/UnknownDS</attribute>
+        <attribute name="Dialect">org.hibernate.dialect.HSQLDialect</attribute>
+        <attribute name="SessionFactoryName">java:/hibernate/SessionFactory</attribute>
+        <attribute name="CacheProviderClass">org.hibernate.cache.EhCacheProvider</attribute>
+    </mbean>
+</server>
